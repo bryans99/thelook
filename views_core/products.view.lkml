@@ -10,10 +10,6 @@ view: products {
   dimension: brand_name {
     sql: ${TABLE}.brand ;;
     link: {
-      label: "Brand Overview"
-      url: "/dashboards/27?Brand={{ value | encode_uri }}&Date={{ _filters['orders.created_date'] | encode_uri }}"
-    }
-    link: {
       label: "A special fancy external link"
       url: "https://lmgtfy.com/?q=looker"
     }

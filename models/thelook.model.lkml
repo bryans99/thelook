@@ -6,7 +6,6 @@ include: "../views_core/*.view"
 include: "../views_other/*.view"
 include: "../views_pdts/*.view"
 include: "../views_pdts/data_pdts/*.view"
-include: "../*.dashboard"
 
 datagroup: thelook_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
