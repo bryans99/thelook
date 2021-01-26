@@ -20,11 +20,11 @@ view: products {
     alias: [category.name]
     #  have its own table
     sql: ${TABLE}.category ;;
-    html: {{ linked_value }}
-      <a href="/dashboards/thelook_redshift/3_category_lookup?category={{ value | encode_uri }}" target="_new">
-      <img src="/images/qr-graph-line@2x.png" height=20 width=20></a>
-      ;;
-  }
+    link: {
+      label: "Drill Dashboard"
+      url: "/dashboards-next/2"
+    }
+    }
 
   #       <img src="http://s1.huffpost.com/images/v/linkout_image.png" width=8 height=8></a>
 
