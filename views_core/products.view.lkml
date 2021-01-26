@@ -22,7 +22,7 @@ view: products {
     sql: ${TABLE}.category ;;
     link: {
       label: "Drill Dashboard"
-      url: "/dashboards-next/2"
+      url: "/embed/dashboards-next/2"
     }
     }
 
