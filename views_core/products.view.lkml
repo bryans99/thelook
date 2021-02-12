@@ -18,6 +18,7 @@ view: products {
   # We want category to be a top level entity even though doesn't
   dimension: category_name {
     alias: [category.name]
+    description: "The name of a category"
     #  have its own table
     sql: ${TABLE}.category ;;
     link: {
