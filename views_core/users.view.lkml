@@ -128,7 +128,7 @@ view: users {
 
   dimension: name {
     sql: CONCAT(${TABLE}.first_name,' ', ${TABLE}.last_name) ;;
-    html: <a href="#lookerevent:email:{{ users.email }}>Email {{rendered_value}}value}}</a> ;;
+    html: <a href="#lookerevent:email:{{ users.email }}>Email {{rendered_value}}}}</a> ;;
     }
 
   filter: dimension_picker {
