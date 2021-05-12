@@ -88,7 +88,7 @@ view: users {
       label: "User Lookup for {{ value }}"
     }
     tags: ["email", "braze_id"]
-    html: <a href="#lookerevent:email:{{ value }}><button >Email</button></a> ;;
+    html: <a href="#lookerevent:email:{{ value }}>Email {{value}}</a> ;;
   }
 
   dimension: phone {
