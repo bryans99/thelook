@@ -33,6 +33,8 @@ datagroup: alert_testing_manual_trigger_checker {
   sql_trigger: select trigger_value from  profservices_scratch.aaa_trigger_max;;
 }
 
+
+
 explore: order_items {
   view_name: order_items
 
@@ -102,6 +104,10 @@ explore: funnel {
 }
 
 explore: products {}
+
+explore: products2{
+   from: products
+}
 
 explore: users {
   join: users_orders_facts {
