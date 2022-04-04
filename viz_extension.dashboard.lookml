@@ -1,14 +1,14 @@
 - dashboard: viz_extension
-  title: Viz Extension
+  title: Viz Extension Demo
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''
   elements:
-  - title: "Kitchen Sink"
-    name: "Kitchen Sink"
+  - title: Viz Extension
+    name: Viz Extension
     model: thelook
     explore: products
-    type: kitchensink::kitchensink
+    type: 'tile_extensions::viz'
     fields: [products.count, calculation_1]
     sorts: [products.count desc]
     limit: 500
