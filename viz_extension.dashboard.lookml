@@ -8,7 +8,7 @@
     name: Viz Extension
     model: thelook
     explore: products
-    type: 'tile_extensions::viz'
+    type: 'tile_extensions::vis'
     fields: [products.count, calculation_1]
     sorts: [products.count desc]
     limit: 500
