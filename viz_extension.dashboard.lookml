@@ -7,10 +7,9 @@
   - title: Viz Extension
     name: Viz Extension
     model: thelook
-    explore: products
+    explore: users
     type: 'tile_extensions::vis'
-    fields: [products.count, calculation_1]
-    sorts: [products.count desc]
+    fields: [users.average_age, users.count]
     limit: 500
     query_timezone: America/Los_Angeles
     row: 0
