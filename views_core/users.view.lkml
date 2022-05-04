@@ -128,7 +128,7 @@ view: users {
 
   dimension: gender_normalized {
     sql: CASE
-        WHEN ${gender} like 'mail%' THEN 'm'
+        WHEN ${gender} like 'm%' THEN 'm'
         ELSE ${gender}
       END
        ;;
