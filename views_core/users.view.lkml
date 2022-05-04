@@ -126,6 +126,14 @@ view: users {
 
   dimension: gender {}
 
+  dimension: gender_normalized {
+    sql: CASE
+        WHEN ${gender} like 'mail%' THEN 'm'
+        ELSE ${gender}
+      END
+       ;;
+  }
+
   dimension: name {
     sql: CONCAT(${TABLE}.first_name,' ', ${TABLE}.last_name) ;;
     }
