@@ -25,7 +25,11 @@ view: products {
       label: "Drill Dashboard"
       url: "/dashboards/5"
     }
+    link: {
+      label: "Drill Explore"
+      url: "/explore/thelook/orders"
     }
+  }
 
   #       <img src="http://s1.huffpost.com/images/v/linkout_image.png" width=8 height=8></a>
 
