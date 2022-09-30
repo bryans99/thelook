@@ -27,7 +27,7 @@ view: products {
     }
     link: {
       label: "Drill Explore"
-      url: "/explore/thelook/orders"
+      url: "/embed/explore/thelook/orders"
     }
   }
 
