@@ -8,7 +8,7 @@
     name: Viz Extension
     model: thelook
     explore: users
-    type: 'tile_extensions::vis'
+    type: '"visualization_extension::visualization"'
     fields: [users.average_age, users.count]
     limit: 500
     query_timezone: America/Los_Angeles
